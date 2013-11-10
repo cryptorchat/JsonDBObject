@@ -77,4 +77,10 @@
       <timezone>+1</timezone>
     </developer>         
   </developers>
+  <scm>
+  	<url>https://github.com/cryptorchat/JsonDBObject</url>
+  </scm>
+  <issueManagement>
+  	<url>https://github.com/cryptorchat/JsonDBObject/issues</url>
+  </issueManagement>
 </project>
