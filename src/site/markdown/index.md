@@ -1,10 +1,11 @@
-JsonDBObject README
--------------------
+Hybrid Implementation of javax.json JsonObject mongoDB's DBObject interface.
+============================================================================
 
-Welcome to CryptorChat Api!
+Quick start
+-----------
 
-USAGE
------
+This is what using the mapper looks like:
+
     public void doPost(HttpServletRequest request, HttpServletResponse response) {
 
 		String inputJson = request.getParameter("inputJson");
@@ -29,8 +30,3 @@ USAGE
 	}
 
 
-
-LICENSE
--------
-  Most CryptorChat source files (including JsonDBObject) are made available under the terms of the
-  Apache License Version 2.0.  See individual files for details.
