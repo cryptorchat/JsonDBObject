@@ -1,9 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>CryptorChat</groupId>
-  <artifactId>JsonDBObject</artifactId>
+  <groupId>com.cryptorchat</groupId>
+  <artifactId>jsondbobject</artifactId>
   <version>0.1</version>
   <name>JsonDBObject</name>
+  <description>Hybrid Implementation of javax.json JsonObject mongoDB's DBObject interface.</description>
+  <url>http://api.cryptorchat.org/static/JsonDBObject/index.html</url>
+  <organization>
+  	<name>CryptorChat</name>
+  	<url>http://cryptorchat.org</url>
+  </organization>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -36,11 +42,6 @@
       </plugin>
     </plugins>
   </build>
-  <url>http://api.cryptorchat.org/static/JsonDBObject/index.html</url>
-  <organization>
-  	<name>CryptorChat</name>
-  	<url>http://cryptorchat.org</url>
-  </organization>
   <dependencies>
   	<dependency>
   		<groupId>org.codehaus.jackson</groupId>
@@ -64,7 +65,6 @@
   		<scope>test</scope>
   	</dependency>
   </dependencies>
-  <description>Hybrid Implementation of javax.json JsonObject mongoDB's DBObject interface.</description>
   <developers>
     <developer>
       <id>csaba</id>
@@ -78,7 +78,8 @@
     </developer>         
   </developers>
   <scm>
-  	<url>https://github.com/cryptorchat/JsonDBObject</url>
+  	<url>git@https://github.com/cryptorchat/JsonDBObject.git</url>
+  	<connection>scm:git:git@https://github.com/cryptorchat/JsonDBObject.git</connection>
   </scm>
   <issueManagement>
   	<url>https://github.com/cryptorchat/JsonDBObject/issues</url>
