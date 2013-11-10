@@ -67,7 +67,7 @@
   </dependencies>
   <developers>
     <developer>
-      <id>csaba</id>
+      <id>csabamiklos</id>
       <name>Csaba Miklos</name>
       <email>csaba.miklos (at) cryptorchat (dot) com</email>
       <roles>
@@ -80,6 +80,7 @@
   <scm>
   	<url>git@https://github.com/cryptorchat/JsonDBObject.git</url>
   	<connection>scm:git:git@https://github.com/cryptorchat/JsonDBObject.git</connection>
+  	<developerConnection>scm:git:git@https://github.com/cryptorchat/JsonDBObject.git</developerConnection>
   </scm>
   <issueManagement>
   	<url>https://github.com/cryptorchat/JsonDBObject/issues</url>
