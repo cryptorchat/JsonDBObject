@@ -6,6 +6,7 @@
 	  <item name="Enterprise" href="http://cryptorchat.com" />
 	  <item name="Chat" href="https://cryptorchat.org/CryptorChat" />
 	  <item name="Indiegogo" href="http://www.indiegogo.com/projects/cryptorchat" />
+	  <item name="GitHub" href="https://github.com/cryptorchat/JsonDBObject" />
     </links>
 
     <menu ref="reports"/>
@@ -15,6 +16,7 @@
       <item name="Enterprise" href="http://cryptorchat.com"/>
       <item name="Chat" href="https://cryptorchat.org/CryptorChat" />
       <item name="Indiegogo" href="http://www.indiegogo.com/projects/cryptorchat"/>
+      <item name="GitHub" href="https://github.com/cryptorchat/JsonDBObject" />
     </menu>
 
   </body>
