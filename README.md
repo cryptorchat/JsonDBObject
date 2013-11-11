@@ -3,6 +3,13 @@ JsonDBObject README
 
 Welcome to CryptorChat Api!
 
+Links
+-----
+Homepage: [http://api.cryptorchat.org](http://api.cryptorchat.org)
+
+[Indiegogo support page](http://www.indiegogo.com/projects/cryptorchat)
+
+
 USAGE
 -----
     public void doPost(HttpServletRequest request, HttpServletResponse response) {
@@ -28,6 +35,10 @@ USAGE
 		jsonWriter.close();
 	}
 
+
+Test
+----
+To execute the "mvn test" copy the config.properties.template to config.properties and setup your mongodb parameters.
 
 
 LICENSE
